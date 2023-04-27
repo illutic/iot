@@ -1,0 +1,1267 @@
+*************************** START ****************************
+START TIME: 202304242055
+CONNECT BAUD: 115200
+set state: ESP_DL_SYNC
+serial port opened
+-----------
+baud:115200
+root baud:115200
+-------------
+===============BAUD : 115200===============CALL DEVICE SYNC
+connecting...
+0x3ff00050: 28e00000
+0x3ff00054: 0200b322
+0x3ff00058: 1000b000
+0x3ff0005c: 00a4e57c
+check_err_0: 0bcheck_err_1: 00check_err_2: 00check_err_3: 02check_err_4: 0b====================
+EFUSE NORMAL MODE
+====================
+=========================
+CRC IN MODE 1: 
+crc_calc_res: 16
+target crc val: 16
+=========================
+=========================
+CRC IN MODE 1:
+crc_calc_res: 224
+target crc val: 224
+=========================
+==================
+EFUSE LOG:
+======================
+    EFUSE LOG:
+    ---------------
+    REG0:28E00000
+    REG1:0200B322
+    REG2:1000b000
+    REG3:00A4E57C
+    ----------------
+    ====================
+                                   EFUSE NORMAL MODE
+                                   ====================
+EFUSE CHECK PASS...48bit mac
+-----------------------
+ a4 e5 7c b3 22 28CUSTOM_ID: 01 00 00 00 00 0E 00 00 
+MAC AP : A6-E5-7C-B3-22-28
+MAC STA: A4-E5-7C-B3-22-28
+get mac res: 1
+get flash id : 0x0014605e
+manufacturer_id: 0x5e
+device_id: 0x6014
+Wrote 2097152 bytes at 0x00000000 in 50.6 seconds (effective 331.3 kbit/s)...
+File  md5: 8efe36e924de547590d83ae658ad428fFlash md5: 8cad2f3d51846d11e9ba7155a0557b82MD5 of 0xFF is b23b5d09162b92c0284923a7f628d2a5*************************** START ****************************
+START TIME: 202304242100
+CONNECT BAUD: 115200
+set state: ESP_DL_SYNC
+serial port opened
+-----------
+baud:115200
+root baud:115200
+-------------
+===============BAUD : 115200===============CALL DEVICE SYNC
+connecting...
+0x3ff00050: 28e00000
+0x3ff00054: 0200b322
+0x3ff00058: 1000b000
+0x3ff0005c: 00a4e57c
+check_err_0: 0bcheck_err_1: 00check_err_2: 00check_err_3: 02check_err_4: 0b====================
+EFUSE NORMAL MODE
+====================
+=========================
+CRC IN MODE 1: 
+crc_calc_res: 16
+target crc val: 16
+=========================
+=========================
+CRC IN MODE 1:
+crc_calc_res: 224
+target crc val: 224
+=========================
+==================
+EFUSE LOG:
+======================
+    EFUSE LOG:
+    ---------------
+    REG0:28E00000
+    REG1:0200B322
+    REG2:1000b000
+    REG3:00A4E57C
+    ----------------
+    ====================
+                                   EFUSE NORMAL MODE
+                                   ====================
+EFUSE CHECK PASS...48bit mac
+-----------------------
+ a4 e5 7c b3 22 28CUSTOM_ID: 01 00 00 00 00 0E 00 00 
+MAC AP : A6-E5-7C-B3-22-28
+MAC STA: A4-E5-7C-B3-22-28
+get mac res: 1
+get flash id : 0x0014605e
+manufacturer_id: 0x5e
+device_id: 0x6014
+*************************** START ****************************
+START TIME: 202304242102
+CONNECT BAUD: 115200
+set state: ESP_DL_SYNC
+serial port opened
+-----------
+baud:115200
+root baud:115200
+-------------
+===============BAUD : 115200===============CALL DEVICE SYNC
+connecting...
+0x3ff00050: 28e00000
+0x3ff00054: 0200b322
+0x3ff00058: 1000b000
+0x3ff0005c: 00a4e57c
+check_err_0: 0bcheck_err_1: 00check_err_2: 00check_err_3: 02check_err_4: 0b====================
+EFUSE NORMAL MODE
+====================
+=========================
+CRC IN MODE 1: 
+crc_calc_res: 16
+target crc val: 16
+=========================
+=========================
+CRC IN MODE 1:
+crc_calc_res: 224
+target crc val: 224
+=========================
+==================
+EFUSE LOG:
+======================
+    EFUSE LOG:
+    ---------------
+    REG0:28E00000
+    REG1:0200B322
+    REG2:1000b000
+    REG3:00A4E57C
+    ----------------
+    ====================
+                                   EFUSE NORMAL MODE
+                                   ====================
+EFUSE CHECK PASS...48bit mac
+-----------------------
+ a4 e5 7c b3 22 28CUSTOM_ID: 01 00 00 00 00 0E 00 00 
+MAC AP : A6-E5-7C-B3-22-28
+MAC STA: A4-E5-7C-B3-22-28
+get mac res: 1
+get flash id : 0x0014605e
+manufacturer_id: 0x5e
+device_id: 0x6014
+Wrote 2097152 bytes at 0x00000000 in 51.8 seconds (effective 323.8 kbit/s)...
+File  md5: 8efe36e924de547590d83ae658ad428fFlash md5: 8cad2f3d51846d11e9ba7155a0557b82MD5 of 0xFF is b23b5d09162b92c0284923a7f628d2a5*************************** START ****************************
+START TIME: 202304242138
+CONNECT BAUD: 115200
+serial port open error
+COM:COM3
+baud:115200
+SERIAL PORT OPEN ERROR
+set state: ESP_DL_CONNECT_ERROR
+*************************** START ****************************
+START TIME: 202304242138
+CONNECT BAUD: 115200
+serial port open error
+COM:COM3
+baud:115200
+SERIAL PORT OPEN ERROR
+set state: ESP_DL_CONNECT_ERROR
+*************************** START ****************************
+START TIME: 202304242139
+CONNECT BAUD: 115200
+serial port open error
+COM:COM3
+baud:115200
+SERIAL PORT OPEN ERROR
+set state: ESP_DL_CONNECT_ERROR
+*************************** START ****************************
+START TIME: 202304242139
+CONNECT BAUD: 115200
+serial port open error
+COM:COM3
+baud:115200
+SERIAL PORT OPEN ERROR
+set state: ESP_DL_CONNECT_ERROR
+*************************** START ****************************
+START TIME: 202304242139
+CONNECT BAUD: 115200
+serial port open error
+COM:COM3
+baud:115200
+SERIAL PORT OPEN ERROR
+set state: ESP_DL_CONNECT_ERROR
+*************************** START ****************************
+START TIME: 202304242139
+CONNECT BAUD: 115200
+serial port open error
+COM:COM3
+baud:115200
+SERIAL PORT OPEN ERROR
+set state: ESP_DL_CONNECT_ERROR
+*************************** START ****************************
+START TIME: 202304242139
+CONNECT BAUD: 115200
+serial port open error
+COM:COM3
+baud:115200
+SERIAL PORT OPEN ERROR
+set state: ESP_DL_CONNECT_ERROR
+*************************** START ****************************
+START TIME: 202304242139
+CONNECT BAUD: 115200
+set state: ESP_DL_SYNC
+serial port opened
+-----------
+baud:115200
+root baud:115200
+-------------
+===============BAUD : 115200===============CALL DEVICE SYNC
+connecting...
+set STOP FLG: Trueset state: ESP_DL_STOP
+*************************** START ****************************
+START TIME: 202304242139
+CONNECT BAUD: 115200
+serial port open error
+COM:COM1
+baud:115200
+SERIAL PORT OPEN ERROR
+set state: ESP_DL_CONNECT_ERROR
+*************************** START ****************************
+START TIME: 202304242139
+CONNECT BAUD: 115200
+serial port open error
+COM:COM3
+baud:115200
+SERIAL PORT OPEN ERROR
+set state: ESP_DL_CONNECT_ERROR
+*************************** START ****************************
+START TIME: 202304242139
+CONNECT BAUD: 115200
+serial port open error
+COM:COM3
+baud:115200
+SERIAL PORT OPEN ERROR
+set state: ESP_DL_CONNECT_ERROR
+*************************** START ****************************
+START TIME: 202304242139
+CONNECT BAUD: 115200
+serial port open error
+COM:COM1
+baud:115200
+SERIAL PORT OPEN ERROR
+set state: ESP_DL_CONNECT_ERROR
+*************************** START ****************************
+START TIME: 202304242139
+CONNECT BAUD: 115200
+serial port open error
+COM:COM1
+baud:115200
+SERIAL PORT OPEN ERROR
+set state: ESP_DL_CONNECT_ERROR
+*************************** START ****************************
+START TIME: 202304242139
+CONNECT BAUD: 115200
+serial port open error
+COM:COM1
+baud:115200
+SERIAL PORT OPEN ERROR
+set state: ESP_DL_CONNECT_ERROR
+*************************** START ****************************
+START TIME: 202304242139
+CONNECT BAUD: 115200
+serial port open error
+COM:COM1
+baud:115200
+SERIAL PORT OPEN ERROR
+set state: ESP_DL_CONNECT_ERROR
+*************************** START ****************************
+START TIME: 202304242139
+CONNECT BAUD: 115200
+serial port open error
+COM:COM3
+baud:115200
+SERIAL PORT OPEN ERROR
+set state: ESP_DL_CONNECT_ERROR
+*************************** START ****************************
+START TIME: 202304242201
+CONNECT BAUD: 115200
+serial port open error
+COM:COM3
+baud:115200
+SERIAL PORT OPEN ERROR
+set state: ESP_DL_CONNECT_ERROR
+*************************** START ****************************
+START TIME: 202304242202
+CONNECT BAUD: 115200
+serial port open error
+COM:COM1
+baud:115200
+SERIAL PORT OPEN ERROR
+set state: ESP_DL_CONNECT_ERROR
+*************************** START ****************************
+START TIME: 202304242202
+CONNECT BAUD: 115200
+serial port open error
+COM:COM3
+baud:115200
+SERIAL PORT OPEN ERROR
+set state: ESP_DL_CONNECT_ERROR
+*************************** START ****************************
+START TIME: 202304242202
+CONNECT BAUD: 115200
+serial port open error
+COM:COM3
+baud:115200
+SERIAL PORT OPEN ERROR
+set state: ESP_DL_CONNECT_ERROR
+*************************** START ****************************
+START TIME: 202304242202
+CONNECT BAUD: 115200
+serial port open error
+COM:COM3
+baud:115200
+SERIAL PORT OPEN ERROR
+set state: ESP_DL_CONNECT_ERROR
+*************************** START ****************************
+START TIME: 202304242202
+CONNECT BAUD: 115200
+serial port open error
+COM:COM3
+baud:115200
+SERIAL PORT OPEN ERROR
+set state: ESP_DL_CONNECT_ERROR
+*************************** START ****************************
+START TIME: 202304242202
+CONNECT BAUD: 115200
+serial port open error
+COM:COM3
+baud:115200
+SERIAL PORT OPEN ERROR
+set state: ESP_DL_CONNECT_ERROR
+*************************** START ****************************
+START TIME: 202304242202
+CONNECT BAUD: 115200
+serial port open error
+COM:COM3
+baud:115200
+SERIAL PORT OPEN ERROR
+set state: ESP_DL_CONNECT_ERROR
+*************************** START ****************************
+START TIME: 202304242202
+CONNECT BAUD: 115200
+set state: ESP_DL_SYNC
+serial port opened
+-----------
+baud:115200
+root baud:115200
+-------------
+===============BAUD : 115200===============CALL DEVICE SYNC
+connecting...
+0x3ff00050: 28e00000
+0x3ff00054: 0200b322
+0x3ff00058: 1000b000
+0x3ff0005c: 00a4e57c
+check_err_0: 0bcheck_err_1: 00check_err_2: 00check_err_3: 02check_err_4: 0b====================
+EFUSE NORMAL MODE
+====================
+=========================
+CRC IN MODE 1: 
+crc_calc_res: 16
+target crc val: 16
+=========================
+=========================
+CRC IN MODE 1:
+crc_calc_res: 224
+target crc val: 224
+=========================
+==================
+EFUSE LOG:
+======================
+    EFUSE LOG:
+    ---------------
+    REG0:28E00000
+    REG1:0200B322
+    REG2:1000b000
+    REG3:00A4E57C
+    ----------------
+    ====================
+                                   EFUSE NORMAL MODE
+                                   ====================
+EFUSE CHECK PASS...48bit mac
+-----------------------
+ a4 e5 7c b3 22 28CUSTOM_ID: 01 00 00 00 00 0E 00 00 
+MAC AP : A6-E5-7C-B3-22-28
+MAC STA: A4-E5-7C-B3-22-28
+get mac res: 1
+get flash id : 0x0014605e
+manufacturer_id: 0x5e
+device_id: 0x6014
+Wrote 2097152 bytes at 0x00000000 in 50.9 seconds (effective 329.4 kbit/s)...
+File  md5: 8efe36e924de547590d83ae658ad428fFlash md5: 8cad2f3d51846d11e9ba7155a0557b82MD5 of 0xFF is b23b5d09162b92c0284923a7f628d2a5*************************** START ****************************
+START TIME: 202304242206
+CONNECT BAUD: 115200
+set state: ESP_DL_SYNC
+serial port opened
+-----------
+baud:115200
+root baud:115200
+-------------
+===============BAUD : 115200===============CALL DEVICE SYNC
+connecting...
+set STOP FLG: Trueset state: ESP_DL_STOP
+*************************** START ****************************
+START TIME: 202304242207
+CONNECT BAUD: 115200
+serial port open error
+COM:COM3
+baud:115200
+SERIAL PORT OPEN ERROR
+set state: ESP_DL_CONNECT_ERROR
+*************************** START ****************************
+START TIME: 202304242207
+CONNECT BAUD: 115200
+serial port open error
+COM:COM3
+baud:115200
+SERIAL PORT OPEN ERROR
+set state: ESP_DL_CONNECT_ERROR
+*************************** START ****************************
+START TIME: 202304242207
+CONNECT BAUD: 115200
+serial port open error
+COM:COM3
+baud:115200
+SERIAL PORT OPEN ERROR
+set state: ESP_DL_CONNECT_ERROR
+*************************** START ****************************
+START TIME: 202304242207
+CONNECT BAUD: 115200
+serial port open error
+COM:COM3
+baud:115200
+SERIAL PORT OPEN ERROR
+set state: ESP_DL_CONNECT_ERROR
+*************************** START ****************************
+START TIME: 202304242207
+CONNECT BAUD: 115200
+set state: ESP_DL_SYNC
+serial port opened
+-----------
+baud:115200
+root baud:115200
+-------------
+===============BAUD : 115200===============CALL DEVICE SYNC
+connecting...
+0x3ff00050: 28e00000
+0x3ff00054: 0200b322
+0x3ff00058: 1000b000
+0x3ff0005c: 00a4e57c
+check_err_0: 0bcheck_err_1: 00check_err_2: 00check_err_3: 02check_err_4: 0b====================
+EFUSE NORMAL MODE
+====================
+=========================
+CRC IN MODE 1: 
+crc_calc_res: 16
+target crc val: 16
+=========================
+=========================
+CRC IN MODE 1:
+crc_calc_res: 224
+target crc val: 224
+=========================
+==================
+EFUSE LOG:
+======================
+    EFUSE LOG:
+    ---------------
+    REG0:28E00000
+    REG1:0200B322
+    REG2:1000b000
+    REG3:00A4E57C
+    ----------------
+    ====================
+                                   EFUSE NORMAL MODE
+                                   ====================
+EFUSE CHECK PASS...48bit mac
+-----------------------
+ a4 e5 7c b3 22 28CUSTOM_ID: 01 00 00 00 00 0E 00 00 
+MAC AP : A6-E5-7C-B3-22-28
+MAC STA: A4-E5-7C-B3-22-28
+get mac res: 1
+get flash id : 0x0014605e
+manufacturer_id: 0x5e
+device_id: 0x6014
+Wrote 2097152 bytes at 0x00000000 in 52.0 seconds (effective 322.6 kbit/s)...
+File  md5: 8efe36e924de547590d83ae658ad428fFlash md5: 8cad2f3d51846d11e9ba7155a0557b82MD5 of 0xFF is b23b5d09162b92c0284923a7f628d2a5*************************** START ****************************
+START TIME: 202304242212
+CONNECT BAUD: 115200
+set state: ESP_DL_SYNC
+serial port opened
+-----------
+baud:115200
+root baud:115200
+-------------
+===============BAUD : 115200===============CALL DEVICE SYNC
+connecting...
+0x3ff00050: 28e00000
+0x3ff00054: 0200b322
+0x3ff00058: 1000b000
+0x3ff0005c: 00a4e57c
+check_err_0: 0bcheck_err_1: 00check_err_2: 00check_err_3: 02check_err_4: 0b====================
+EFUSE NORMAL MODE
+====================
+=========================
+CRC IN MODE 1: 
+crc_calc_res: 16
+target crc val: 16
+=========================
+=========================
+CRC IN MODE 1:
+crc_calc_res: 224
+target crc val: 224
+=========================
+==================
+EFUSE LOG:
+======================
+    EFUSE LOG:
+    ---------------
+    REG0:28E00000
+    REG1:0200B322
+    REG2:1000b000
+    REG3:00A4E57C
+    ----------------
+    ====================
+                                   EFUSE NORMAL MODE
+                                   ====================
+EFUSE CHECK PASS...48bit mac
+-----------------------
+ a4 e5 7c b3 22 28CUSTOM_ID: 01 00 00 00 00 0E 00 00 
+MAC AP : A6-E5-7C-B3-22-28
+MAC STA: A4-E5-7C-B3-22-28
+get mac res: 1
+get flash id : 0x0014605e
+manufacturer_id: 0x5e
+device_id: 0x6014
+Wrote 2097152 bytes at 0x00000000 in 51.6 seconds (effective 325.1 kbit/s)...
+File  md5: 8efe36e924de547590d83ae658ad428fFlash md5: 8cad2f3d51846d11e9ba7155a0557b82MD5 of 0xFF is b23b5d09162b92c0284923a7f628d2a5*************************** START ****************************
+START TIME: 202304242215
+CONNECT BAUD: 115200
+set state: ESP_DL_SYNC
+serial port opened
+-----------
+baud:115200
+root baud:115200
+-------------
+===============BAUD : 115200===============CALL DEVICE SYNC
+connecting...
+0x3ff00050: 28e00000
+0x3ff00054: 0200b322
+0x3ff00058: 1000b000
+0x3ff0005c: 00a4e57c
+check_err_0: 0bcheck_err_1: 00check_err_2: 00check_err_3: 02check_err_4: 0b====================
+EFUSE NORMAL MODE
+====================
+=========================
+CRC IN MODE 1: 
+crc_calc_res: 16
+target crc val: 16
+=========================
+=========================
+CRC IN MODE 1:
+crc_calc_res: 224
+target crc val: 224
+=========================
+==================
+EFUSE LOG:
+======================
+    EFUSE LOG:
+    ---------------
+    REG0:28E00000
+    REG1:0200B322
+    REG2:1000b000
+    REG3:00A4E57C
+    ----------------
+    ====================
+                                   EFUSE NORMAL MODE
+                                   ====================
+EFUSE CHECK PASS...48bit mac
+-----------------------
+ a4 e5 7c b3 22 28CUSTOM_ID: 01 00 00 00 00 0E 00 00 
+MAC AP : A6-E5-7C-B3-22-28
+MAC STA: A4-E5-7C-B3-22-28
+get mac res: 1
+get flash id : 0x0014605e
+manufacturer_id: 0x5e
+device_id: 0x6014
+*************************** START ****************************
+START TIME: 202304242215
+CONNECT BAUD: 115200
+set state: ESP_DL_SYNC
+serial port opened
+-----------
+baud:115200
+root baud:115200
+-------------
+===============BAUD : 115200===============CALL DEVICE SYNC
+connecting...
+0x3ff00050: 28e00000
+0x3ff00054: 0200b322
+0x3ff00058: 1000b000
+0x3ff0005c: 00a4e57c
+check_err_0: 0bcheck_err_1: 00check_err_2: 00check_err_3: 02check_err_4: 0b====================
+EFUSE NORMAL MODE
+====================
+=========================
+CRC IN MODE 1: 
+crc_calc_res: 16
+target crc val: 16
+=========================
+=========================
+CRC IN MODE 1:
+crc_calc_res: 224
+target crc val: 224
+=========================
+==================
+EFUSE LOG:
+======================
+    EFUSE LOG:
+    ---------------
+    REG0:28E00000
+    REG1:0200B322
+    REG2:1000b000
+    REG3:00A4E57C
+    ----------------
+    ====================
+                                   EFUSE NORMAL MODE
+                                   ====================
+EFUSE CHECK PASS...48bit mac
+-----------------------
+ a4 e5 7c b3 22 28CUSTOM_ID: 01 00 00 00 00 0E 00 00 
+MAC AP : A6-E5-7C-B3-22-28
+MAC STA: A4-E5-7C-B3-22-28
+get mac res: 1
+get flash id : 0x0014605e
+manufacturer_id: 0x5e
+device_id: 0x6014
+*************************** START ****************************
+START TIME: 202304242223
+CONNECT BAUD: 115200
+set state: ESP_DL_SYNC
+serial port opened
+-----------
+baud:115200
+root baud:115200
+-------------
+===============BAUD : 115200===============CALL DEVICE SYNC
+connecting...
+0x3ff00050: 28e00000
+0x3ff00054: 0200b322
+0x3ff00058: 1000b000
+0x3ff0005c: 00a4e57c
+check_err_0: 0bcheck_err_1: 00check_err_2: 00check_err_3: 02check_err_4: 0b====================
+EFUSE NORMAL MODE
+====================
+=========================
+CRC IN MODE 1: 
+crc_calc_res: 16
+target crc val: 16
+=========================
+=========================
+CRC IN MODE 1:
+crc_calc_res: 224
+target crc val: 224
+=========================
+==================
+EFUSE LOG:
+======================
+    EFUSE LOG:
+    ---------------
+    REG0:28E00000
+    REG1:0200B322
+    REG2:1000b000
+    REG3:00A4E57C
+    ----------------
+    ====================
+                                   EFUSE NORMAL MODE
+                                   ====================
+EFUSE CHECK PASS...48bit mac
+-----------------------
+ a4 e5 7c b3 22 28CUSTOM_ID: 01 00 00 00 00 0E 00 00 
+MAC AP : A6-E5-7C-B3-22-28
+MAC STA: A4-E5-7C-B3-22-28
+get mac res: 1
+get flash id : 0x0014605e
+manufacturer_id: 0x5e
+device_id: 0x6014
+Wrote 2097152 bytes at 0x00000000 in 51.9 seconds (effective 323.0 kbit/s)...
+File  md5: 8efe36e924de547590d83ae658ad428fFlash md5: 8cad2f3d51846d11e9ba7155a0557b82MD5 of 0xFF is b23b5d09162b92c0284923a7f628d2a5*************************** START ****************************
+START TIME: 202304242225
+CONNECT BAUD: 115200
+set state: ESP_DL_SYNC
+serial port opened
+-----------
+baud:115200
+root baud:115200
+-------------
+===============BAUD : 115200===============CALL DEVICE SYNC
+connecting...
+0x3ff00050: 28e00000
+0x3ff00054: 0200b322
+0x3ff00058: 1000b000
+0x3ff0005c: 00a4e57c
+check_err_0: 0bcheck_err_1: 00check_err_2: 00check_err_3: 02check_err_4: 0b====================
+EFUSE NORMAL MODE
+====================
+=========================
+CRC IN MODE 1: 
+crc_calc_res: 16
+target crc val: 16
+=========================
+=========================
+CRC IN MODE 1:
+crc_calc_res: 224
+target crc val: 224
+=========================
+==================
+EFUSE LOG:
+======================
+    EFUSE LOG:
+    ---------------
+    REG0:28E00000
+    REG1:0200B322
+    REG2:1000b000
+    REG3:00A4E57C
+    ----------------
+    ====================
+                                   EFUSE NORMAL MODE
+                                   ====================
+EFUSE CHECK PASS...48bit mac
+-----------------------
+ a4 e5 7c b3 22 28CUSTOM_ID: 01 00 00 00 00 0E 00 00 
+MAC AP : A6-E5-7C-B3-22-28
+MAC STA: A4-E5-7C-B3-22-28
+get mac res: 1
+get flash id : 0x0014605e
+manufacturer_id: 0x5e
+device_id: 0x6014
+set STOP FLG: Truecom closed
+Use time: 18 s
+Download result: PASS
+*************************** END ****************************
+
+set state: ESP_DL_STOP
+*************************** START ****************************
+START TIME: 202304242225
+CONNECT BAUD: 115200
+set state: ESP_DL_SYNC
+serial port opened
+-----------
+baud:115200
+root baud:115200
+-------------
+===============BAUD : 115200===============CALL DEVICE SYNC
+connecting...
+0x3ff00050: 28e00000
+0x3ff00054: 0200b322
+0x3ff00058: 1000b000
+0x3ff0005c: 00a4e57c
+check_err_0: 0bcheck_err_1: 00check_err_2: 00check_err_3: 02check_err_4: 0b====================
+EFUSE NORMAL MODE
+====================
+=========================
+CRC IN MODE 1: 
+crc_calc_res: 16
+target crc val: 16
+=========================
+=========================
+CRC IN MODE 1:
+crc_calc_res: 224
+target crc val: 224
+=========================
+==================
+EFUSE LOG:
+======================
+    EFUSE LOG:
+    ---------------
+    REG0:28E00000
+    REG1:0200B322
+    REG2:1000b000
+    REG3:00A4E57C
+    ----------------
+    ====================
+                                   EFUSE NORMAL MODE
+                                   ====================
+EFUSE CHECK PASS...48bit mac
+-----------------------
+ a4 e5 7c b3 22 28CUSTOM_ID: 01 00 00 00 00 0E 00 00 
+MAC AP : A6-E5-7C-B3-22-28
+MAC STA: A4-E5-7C-B3-22-28
+get mac res: 1
+get flash id : 0x0014605e
+manufacturer_id: 0x5e
+device_id: 0x6014
+Wrote 2097152 bytes at 0x00000000 in 51.1 seconds (effective 328.1 kbit/s)...
+File  md5: 8efe36e924de547590d83ae658ad428fFlash md5: 0cdfdadbe9984f1c5fc29030793fedcdMD5 of 0xFF is b23b5d09162b92c0284923a7f628d2a5*************************** START ****************************
+START TIME: 202304242235
+CONNECT BAUD: 115200
+set state: ESP_DL_SYNC
+serial port opened
+-----------
+baud:115200
+root baud:115200
+-------------
+===============BAUD : 115200===============CALL DEVICE SYNC
+connecting...
+0x3ff00050: 28e00000
+0x3ff00054: 0200b322
+0x3ff00058: 1000b000
+0x3ff0005c: 00a4e57c
+check_err_0: 0bcheck_err_1: 00check_err_2: 00check_err_3: 02check_err_4: 0b====================
+EFUSE NORMAL MODE
+====================
+=========================
+CRC IN MODE 1: 
+crc_calc_res: 16
+target crc val: 16
+=========================
+=========================
+CRC IN MODE 1:
+crc_calc_res: 224
+target crc val: 224
+=========================
+==================
+EFUSE LOG:
+======================
+    EFUSE LOG:
+    ---------------
+    REG0:28E00000
+    REG1:0200B322
+    REG2:1000b000
+    REG3:00A4E57C
+    ----------------
+    ====================
+                                   EFUSE NORMAL MODE
+                                   ====================
+EFUSE CHECK PASS...48bit mac
+-----------------------
+ a4 e5 7c b3 22 28CUSTOM_ID: 01 00 00 00 00 0E 00 00 
+MAC AP : A6-E5-7C-B3-22-28
+MAC STA: A4-E5-7C-B3-22-28
+get mac res: 1
+get flash id : 0x0014605e
+manufacturer_id: 0x5e
+device_id: 0x6014
+Wrote 10224 bytes at 0x00000000 in 0.8 seconds (effective 100.3 kbit/s)...
+Hash of data verified.Wrote 3072 bytes at 0x00008000 in 0.1 seconds (effective 397.9 kbit/s)...
+Hash of data verified.Wrote 8192 bytes at 0x00009000 in 0.1 seconds (effective 664.5 kbit/s)...
+Hash of data verified.Wrote 844288 bytes at 0x00010000 in 46.3 seconds (effective 146.0 kbit/s)...
+Hash of data verified.Wrote 3072 bytes at 0x000f0000 in 0.1 seconds (effective 314.9 kbit/s)...
+Hash of data verified.Wrote 4096 bytes at 0x000f1000 in 0.1 seconds (effective 533.8 kbit/s)...
+Hash of data verified.Wrote 2344 bytes at 0x000f8000 in 0.2 seconds (effective 99.2 kbit/s)...
+Hash of data verified.Wrote 3368 bytes at 0x000fa000 in 0.3 seconds (effective 85.3 kbit/s)...
+Hash of data verified.Wrote 2344 bytes at 0x000fc000 in 0.2 seconds (effective 83.1 kbit/s)...
+Hash of data verified.Wrote 1168 bytes at 0x00104000 in 0.2 seconds (effective 55.5 kbit/s)...
+Hash of data verified.Wrote 1692 bytes at 0x00106000 in 0.2 seconds (effective 65.9 kbit/s)...
+Hash of data verified.Wrote 1172 bytes at 0x00108000 in 0.2 seconds (effective 56.0 kbit/s)...
+Hash of data verified.
+Leaving...
+com closed
+Use time: 55 s
+Download result: PASS
+*************************** END ****************************
+
+*************************** START ****************************
+START TIME: 202304242245
+CONNECT BAUD: 115200
+serial port open error
+COM:COM3
+baud:115200
+SERIAL PORT OPEN ERROR
+set state: ESP_DL_CONNECT_ERROR
+*************************** START ****************************
+START TIME: 202304242245
+CONNECT BAUD: 115200
+serial port open error
+COM:COM3
+baud:115200
+SERIAL PORT OPEN ERROR
+set state: ESP_DL_CONNECT_ERROR
+*************************** START ****************************
+START TIME: 202304242245
+CONNECT BAUD: 115200
+serial port open error
+COM:COM3
+baud:115200
+SERIAL PORT OPEN ERROR
+set state: ESP_DL_CONNECT_ERROR
+*************************** START ****************************
+START TIME: 202304242245
+CONNECT BAUD: 115200
+serial port open error
+COM:COM3
+baud:115200
+SERIAL PORT OPEN ERROR
+set state: ESP_DL_CONNECT_ERROR
+*************************** START ****************************
+START TIME: 202304242245
+CONNECT BAUD: 115200
+serial port open error
+COM:COM3
+baud:115200
+SERIAL PORT OPEN ERROR
+set state: ESP_DL_CONNECT_ERROR
+*************************** START ****************************
+START TIME: 202304242245
+CONNECT BAUD: 115200
+serial port open error
+COM:COM3
+baud:115200
+SERIAL PORT OPEN ERROR
+set state: ESP_DL_CONNECT_ERROR
+*************************** START ****************************
+START TIME: 202304242245
+CONNECT BAUD: 115200
+serial port open error
+COM:COM3
+baud:115200
+SERIAL PORT OPEN ERROR
+set state: ESP_DL_CONNECT_ERROR
+*************************** START ****************************
+START TIME: 202304242245
+CONNECT BAUD: 115200
+serial port open error
+COM:COM3
+baud:115200
+SERIAL PORT OPEN ERROR
+set state: ESP_DL_CONNECT_ERROR
+*************************** START ****************************
+START TIME: 202304242246
+CONNECT BAUD: 115200
+serial port open error
+COM:COM3
+baud:115200
+SERIAL PORT OPEN ERROR
+set state: ESP_DL_CONNECT_ERROR
+*************************** START ****************************
+START TIME: 202304242246
+CONNECT BAUD: 115200
+serial port open error
+COM:COM3
+baud:115200
+SERIAL PORT OPEN ERROR
+set state: ESP_DL_CONNECT_ERROR
+*************************** START ****************************
+START TIME: 202304242246
+CONNECT BAUD: 115200
+serial port open error
+COM:COM3
+baud:115200
+SERIAL PORT OPEN ERROR
+set state: ESP_DL_CONNECT_ERROR
+*************************** START ****************************
+START TIME: 202304242246
+CONNECT BAUD: 115200
+serial port open error
+COM:COM3
+baud:115200
+SERIAL PORT OPEN ERROR
+set state: ESP_DL_CONNECT_ERROR
+*************************** START ****************************
+START TIME: 202304242246
+CONNECT BAUD: 115200
+serial port open error
+COM:COM3
+baud:115200
+SERIAL PORT OPEN ERROR
+set state: ESP_DL_CONNECT_ERROR
+*************************** START ****************************
+START TIME: 202304242246
+CONNECT BAUD: 115200
+serial port open error
+COM:COM3
+baud:115200
+SERIAL PORT OPEN ERROR
+set state: ESP_DL_CONNECT_ERROR
+*************************** START ****************************
+START TIME: 202304242246
+CONNECT BAUD: 115200
+serial port open error
+COM:COM3
+baud:115200
+SERIAL PORT OPEN ERROR
+set state: ESP_DL_CONNECT_ERROR
+*************************** START ****************************
+START TIME: 202304242246
+CONNECT BAUD: 115200
+serial port open error
+COM:COM3
+baud:115200
+SERIAL PORT OPEN ERROR
+set state: ESP_DL_CONNECT_ERROR
+*************************** START ****************************
+START TIME: 202304242246
+CONNECT BAUD: 115200
+set state: ESP_DL_SYNC
+serial port opened
+-----------
+baud:115200
+root baud:115200
+-------------
+===============BAUD : 115200===============CALL DEVICE SYNC
+connecting...
+0x3ff00050: 28e00000
+0x3ff00054: 0200b322
+0x3ff00058: 1000b000
+0x3ff0005c: 00a4e57c
+check_err_0: 0bcheck_err_1: 00check_err_2: 00check_err_3: 02check_err_4: 0b====================
+EFUSE NORMAL MODE
+====================
+=========================
+CRC IN MODE 1: 
+crc_calc_res: 16
+target crc val: 16
+=========================
+=========================
+CRC IN MODE 1:
+crc_calc_res: 224
+target crc val: 224
+=========================
+==================
+EFUSE LOG:
+======================
+    EFUSE LOG:
+    ---------------
+    REG0:28E00000
+    REG1:0200B322
+    REG2:1000b000
+    REG3:00A4E57C
+    ----------------
+    ====================
+                                   EFUSE NORMAL MODE
+                                   ====================
+EFUSE CHECK PASS...48bit mac
+-----------------------
+ a4 e5 7c b3 22 28CUSTOM_ID: 01 00 00 00 00 0E 00 00 
+MAC AP : A6-E5-7C-B3-22-28
+MAC STA: A4-E5-7C-B3-22-28
+get mac res: 1
+get flash id : 0x0014605e
+manufacturer_id: 0x5e
+device_id: 0x6014
+Wrote 10224 bytes at 0x00000000 in 0.9 seconds (effective 96.0 kbit/s)...
+Hash of data verified.Wrote 3072 bytes at 0x00008000 in 0.1 seconds (effective 242.0 kbit/s)...
+Hash of data verified.Wrote 8192 bytes at 0x00009000 in 0.2 seconds (effective 364.5 kbit/s)...
+Hash of data verified.Wrote 844288 bytes at 0x00010000 in 46.3 seconds (effective 146.0 kbit/s)...
+Hash of data verified.Wrote 3072 bytes at 0x000f0000 in 0.1 seconds (effective 358.1 kbit/s)...
+Hash of data verified.Wrote 4096 bytes at 0x000f1000 in 0.1 seconds (effective 468.8 kbit/s)...
+Hash of data verified.Wrote 2344 bytes at 0x000f8000 in 0.2 seconds (effective 84.6 kbit/s)...
+Hash of data verified.Wrote 3368 bytes at 0x000fa000 in 0.3 seconds (effective 85.7 kbit/s)...
+Hash of data verified.Wrote 2344 bytes at 0x000fc000 in 0.2 seconds (effective 84.8 kbit/s)...
+Hash of data verified.Wrote 1168 bytes at 0x00104000 in 0.2 seconds (effective 55.9 kbit/s)...
+Hash of data verified.Wrote 1692 bytes at 0x00106000 in 0.2 seconds (effective 66.4 kbit/s)...
+Hash of data verified.Wrote 1172 bytes at 0x00108000 in 0.2 seconds (effective 56.9 kbit/s)...
+Hash of data verified.
+Leaving...
+com closed
+Use time: 53 s
+Download result: PASS
+*************************** END ****************************
+
+*************************** START ****************************
+START TIME: 202304242304
+CONNECT BAUD: 115200
+set state: ESP_DL_SYNC
+serial port opened
+-----------
+baud:115200
+root baud:115200
+-------------
+===============BAUD : 115200===============CALL DEVICE SYNC
+connecting...
+0x3ff00050: 28e00000
+0x3ff00054: 0200b322
+0x3ff00058: 1000b000
+0x3ff0005c: 00a4e57c
+check_err_0: 0bcheck_err_1: 00check_err_2: 00check_err_3: 02check_err_4: 0b====================
+EFUSE NORMAL MODE
+====================
+=========================
+CRC IN MODE 1: 
+crc_calc_res: 16
+target crc val: 16
+=========================
+=========================
+CRC IN MODE 1:
+crc_calc_res: 224
+target crc val: 224
+=========================
+==================
+EFUSE LOG:
+======================
+    EFUSE LOG:
+    ---------------
+    REG0:28E00000
+    REG1:0200B322
+    REG2:1000b000
+    REG3:00A4E57C
+    ----------------
+    ====================
+                                   EFUSE NORMAL MODE
+                                   ====================
+EFUSE CHECK PASS...48bit mac
+-----------------------
+ a4 e5 7c b3 22 28CUSTOM_ID: 01 00 00 00 00 0E 00 00 
+MAC AP : A6-E5-7C-B3-22-28
+MAC STA: A4-E5-7C-B3-22-28
+get mac res: 1
+get flash id : 0x0014605e
+manufacturer_id: 0x5e
+device_id: 0x6014
+Wrote 10224 bytes at 0x00000000 in 0.9 seconds (effective 90.8 kbit/s)...
+Hash of data verified.Wrote 3072 bytes at 0x00008000 in 0.1 seconds (effective 252.9 kbit/s)...
+Hash of data verified.Wrote 8192 bytes at 0x00009000 in 0.2 seconds (effective 362.1 kbit/s)...
+Hash of data verified.Wrote 844288 bytes at 0x00010000 in 46.3 seconds (effective 146.0 kbit/s)...
+Hash of data verified.Wrote 3072 bytes at 0x000f0000 in 0.1 seconds (effective 350.7 kbit/s)...
+Hash of data verified.Wrote 4096 bytes at 0x000f1000 in 0.1 seconds (effective 473.3 kbit/s)...
+Hash of data verified.Wrote 2344 bytes at 0x000f8000 in 0.2 seconds (effective 84.8 kbit/s)...
+Hash of data verified.Wrote 3368 bytes at 0x000fa000 in 0.3 seconds (effective 85.1 kbit/s)...
+Hash of data verified.Wrote 2344 bytes at 0x000fc000 in 0.2 seconds (effective 84.9 kbit/s)...
+Hash of data verified.Wrote 1168 bytes at 0x00104000 in 0.2 seconds (effective 55.9 kbit/s)...
+Hash of data verified.Wrote 1692 bytes at 0x00106000 in 0.2 seconds (effective 65.7 kbit/s)...
+Hash of data verified.Wrote 1172 bytes at 0x00108000 in 0.2 seconds (effective 55.4 kbit/s)...
+Hash of data verified.
+Leaving...
+com closed
+Use time: 56 s
+Download result: PASS
+*************************** END ****************************
+
+*************************** START ****************************
+START TIME: 202304242321
+CONNECT BAUD: 115200
+serial port open error
+COM:COM3
+baud:115200
+SERIAL PORT OPEN ERROR
+set state: ESP_DL_CONNECT_ERROR
+*************************** START ****************************
+START TIME: 202304242321
+CONNECT BAUD: 115200
+serial port open error
+COM:COM3
+baud:115200
+SERIAL PORT OPEN ERROR
+set state: ESP_DL_CONNECT_ERROR
+*************************** START ****************************
+START TIME: 202304242321
+CONNECT BAUD: 115200
+set state: ESP_DL_SYNC
+serial port opened
+-----------
+baud:115200
+root baud:115200
+-------------
+===============BAUD : 115200===============CALL DEVICE SYNC
+connecting...
+set STOP FLG: Trueset state: ESP_DL_STOP
+*************************** START ****************************
+START TIME: 202304242322
+CONNECT BAUD: 115200
+serial port open error
+COM:COM3
+baud:115200
+SERIAL PORT OPEN ERROR
+set state: ESP_DL_CONNECT_ERROR
+*************************** START ****************************
+START TIME: 202304242322
+CONNECT BAUD: 115200
+serial port open error
+COM:COM3
+baud:115200
+SERIAL PORT OPEN ERROR
+set state: ESP_DL_CONNECT_ERROR
+*************************** START ****************************
+START TIME: 202304242322
+CONNECT BAUD: 115200
+serial port open error
+COM:COM3
+baud:115200
+SERIAL PORT OPEN ERROR
+set state: ESP_DL_CONNECT_ERROR
+*************************** START ****************************
+START TIME: 202304242322
+CONNECT BAUD: 115200
+serial port open error
+COM:COM3
+baud:115200
+SERIAL PORT OPEN ERROR
+set state: ESP_DL_CONNECT_ERROR
+*************************** START ****************************
+START TIME: 202304242323
+CONNECT BAUD: 115200
+set state: ESP_DL_SYNC
+serial port opened
+-----------
+baud:115200
+root baud:115200
+-------------
+===============BAUD : 115200===============CALL DEVICE SYNC
+connecting...
+0x3ff00050: 28e00000
+0x3ff00054: 0200b322
+0x3ff00058: 1000b000
+0x3ff0005c: 00a4e57c
+check_err_0: 0bcheck_err_1: 00check_err_2: 00check_err_3: 02check_err_4: 0b====================
+EFUSE NORMAL MODE
+====================
+=========================
+CRC IN MODE 1: 
+crc_calc_res: 16
+target crc val: 16
+=========================
+=========================
+CRC IN MODE 1:
+crc_calc_res: 224
+target crc val: 224
+=========================
+==================
+EFUSE LOG:
+======================
+    EFUSE LOG:
+    ---------------
+    REG0:28E00000
+    REG1:0200B322
+    REG2:1000b000
+    REG3:00A4E57C
+    ----------------
+    ====================
+                                   EFUSE NORMAL MODE
+                                   ====================
+EFUSE CHECK PASS...48bit mac
+-----------------------
+ a4 e5 7c b3 22 28CUSTOM_ID: 01 00 00 00 00 0E 00 00 
+MAC AP : A6-E5-7C-B3-22-28
+MAC STA: A4-E5-7C-B3-22-28
+get mac res: 1
+get flash id : 0x0014605e
+manufacturer_id: 0x5e
+device_id: 0x6014
+Wrote 10224 bytes at 0x00000000 in 0.9 seconds (effective 91.1 kbit/s)...
+Hash of data verified.Wrote 3072 bytes at 0x00008000 in 0.1 seconds (effective 240.4 kbit/s)...
+Hash of data verified.Wrote 8192 bytes at 0x00009000 in 0.2 seconds (effective 365.4 kbit/s)...
+Hash of data verified.Wrote 844288 bytes at 0x00010000 in 46.3 seconds (effective 146.0 kbit/s)...
+Hash of data verified.Wrote 3072 bytes at 0x000f0000 in 0.1 seconds (effective 354.0 kbit/s)...
+Hash of data verified.Wrote 4096 bytes at 0x000f1000 in 0.1 seconds (effective 468.3 kbit/s)...
+Hash of data verified.Wrote 2344 bytes at 0x000f8000 in 0.2 seconds (effective 85.0 kbit/s)...
+Hash of data verified.Wrote 3368 bytes at 0x000fa000 in 0.3 seconds (effective 85.5 kbit/s)...
+Hash of data verified.Wrote 2344 bytes at 0x000fc000 in 0.2 seconds (effective 84.6 kbit/s)...
+Hash of data verified.Wrote 1168 bytes at 0x00104000 in 0.2 seconds (effective 57.0 kbit/s)...
+Hash of data verified.Wrote 1692 bytes at 0x00106000 in 0.2 seconds (effective 66.3 kbit/s)...
+Hash of data verified.Wrote 1172 bytes at 0x00108000 in 0.2 seconds (effective 55.7 kbit/s)...
+Hash of data verified.
+Leaving...
+com closed
+Use time: 56 s
+Download result: PASS
+*************************** END ****************************
+
