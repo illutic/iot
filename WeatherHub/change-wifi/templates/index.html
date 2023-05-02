@@ -41,7 +41,7 @@
                             <p>Processing request...</p>
                         </div>
                         <div id="error" style="display:none">
-                            <p>Error processing request.</p>
+                            <p>Error processing request. Error:<span id="err_output"></span></p>
                         </div>
                         <div id="result" style="display:none">
                             <p>Output: <span id="output"></span></p>
@@ -67,12 +67,12 @@
 
             // Send a POST request to run the script
             var xhr = new XMLHttpRequest();
-            xhr.open("POST", "/");
+            xhr.open("POST", "/wifi-change");
             xhr.responseType = 'json';
             xhr.setRequestHeader("Content-Type", "application/json;charset=UTF-8");
             xhr.onreadystatechange = function () {
+                // Hide loading state
                 if (xhr.readyState === 4) {
-                    // Hide loading state
                     document.getElementById("loading").style.display = "none";
 
                     if (xhr.status === 200) {
@@ -84,6 +84,7 @@
                     } else {
                         // Show error state
                         document.getElementById("error").style.display = "block";
+                        document.getElementById("err_output").innerText = jsonResponse['message'];
                     }
                 }
             };

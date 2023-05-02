@@ -78,9 +78,10 @@ AP_IP_BEGIN=`echo "${AP_IP}" | sed -e 's/\.[0-9]\{1,3\}$//g'`
 MAC_ADDRESS="$(cat /sys/class/net/wlan0/address)"
 
 # Install dependencies
+sudo -Es
 sudo apt -y update
 sudo apt -y upgrade
-sudo apt -y install dnsmasq dhcpcd hostapd cron
+sudo apt -y install dnsmasq dhcpcd5 hostapd cron
 
 # Populate `/etc/udev/rules.d/70-persistent-net.rules`
 sudo bash -c 'cat > /etc/udev/rules.d/70-persistent-net.rules' << EOF
@@ -173,21 +174,21 @@ EOF
 sudo chmod +x /bin/rpi-wifi.sh
 
 # Configure cron job
-# sudo bash -c 'cat > /etc/systemd/system/rpi-wifi.service' << EOF
-# [Unit]
-# Description=Simultaneous AP and Managed Mode Wifi on Raspberry Pi
-# Requires=network.target
-# After=network.target
-#
-# [Service]
-# ExecStart=/bin/bash -c 'rpi-wifi.sh'
-# User=root
-#
-# [Install]
-# WantedBy=multi-user.target
-# EOF
-# sudo systemctl daemon-reload
-# sudo systemctl enable rpi-wifi.service
+sudo bash -c 'cat > /etc/systemd/system/rpi-wifi.service' << EOF
+[Unit]
+Description=Simultaneous AP and Managed Mode Wifi on Raspberry Pi
+Requires=network.target
+After=network.target
+
+[Service]
+ExecStart=/bin/bash -c 'rpi-wifi.sh'
+User=root
+
+[Install]
+WantedBy=multi-user.target
+EOF
+sudo systemctl daemon-reload
+sudo systemctl enable rpi-wifi.service
 crontab -l | { cat; echo "@reboot /bin/rpi-wifi.sh"; } | crontab -
 
 # Finish
