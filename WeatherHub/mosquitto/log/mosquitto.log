@@ -10,3 +10,85 @@
 1683126090: Opening ipv4 listen socket on port 1883.
 1683126090: Opening ipv6 listen socket on port 1883.
 1683126090: mosquitto version 2.0.15 running
+1683133688: mosquitto version 2.0.15 starting
+1683133688: Config loaded from /mosquitto/config/mosquitto.conf.
+1683133688: Opening ipv4 listen socket on port 1883.
+1683133688: Opening ipv6 listen socket on port 1883.
+1683133688: mosquitto version 2.0.15 running
+1683134210: New connection from 172.18.0.1:45514 on port 1883.
+1683134210: New client connected from 172.18.0.1:45514 as WeatherHub (p2, c1, k15, u'WeatherStation').
+1683134260: New connection from 172.18.0.1:49822 on port 1883.
+1683134260: New client connected from 172.18.0.1:49822 as mymqtt-67676059232668 (p5, c0, k60).
+1683135157: Client WeatherHub has exceeded timeout, disconnecting.
+1683135183: New connection from 172.18.0.1:59328 on port 1883.
+1683135183: New client connected from 172.18.0.1:59328 as WeatherHub (p2, c1, k15, u'WeatherStation').
+1683135488: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1683135715: Client WeatherHub closed its connection.
+1683135720: New connection from 172.18.0.1:47166 on port 1883.
+1683135720: New client connected from 172.18.0.1:47166 as WeatherHub (p2, c1, k15, u'WeatherStation').
+1683135738: New connection from 172.18.0.1:41622 on port 1883.
+1683135738: Client mymqtt-67676059232668 already connected, closing old connection.
+1683135738: New client connected from 172.18.0.1:41622 as mymqtt-67676059232668 (p5, c1, k60).
+1683135745: Client WeatherHub has exceeded timeout, disconnecting.
+1683136169: New connection from 172.18.0.1:49914 on port 1883.
+1683136169: New client connected from 172.18.0.1:49914 as WeatherHub (p2, c1, k15, u'WeatherStation').
+1683136285: New connection from 172.18.0.1:46718 on port 1883.
+1683136285: Client WeatherHub already connected, closing old connection.
+1683136285: New client connected from 172.18.0.1:46718 as WeatherHub (p2, c1, k15, u'WeatherStation').
+1683136319: Client WeatherHub has exceeded timeout, disconnecting.
+1683136385: Client mymqtt-67676059232668 has exceeded timeout, disconnecting.
+1683139832: New connection from 172.18.0.1:51880 on port 1883.
+1683139832: New client connected from 172.18.0.1:51880 as WeatherHub (p2, c1, k15, u'WeatherStation').
+1683139864: Client WeatherHub has exceeded timeout, disconnecting.
+1683140700: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1683140746: New connection from 172.18.0.1:46380 on port 1883.
+1683140746: New client connected from 172.18.0.1:46380 as WeatherHub (p2, c1, k15, u'WeatherStation').
+1683140816: New connection from 172.18.0.1:32986 on port 1883.
+1683140816: New client connected from 172.18.0.1:32986 as mymqtt-71823128399325 (p5, c0, k60).
+1683141244: Client WeatherHub has exceeded timeout, disconnecting.
+1683141436: New connection from 172.18.0.1:49036 on port 1883.
+1683141436: New client connected from 172.18.0.1:49036 as WeatherHub (p2, c1, k15, u'WeatherStation').
+1683141598: Client WeatherHub has exceeded timeout, disconnecting.
+1683141686: Client mymqtt-71823128399325 closed its connection.
+1683141688: New connection from 172.18.0.1:55144 on port 1883.
+1683141688: New client connected from 172.18.0.1:55144 as mymqtt-71823128399325 (p5, c1, k60).
+1683141692: New connection from 172.18.0.1:55150 on port 1883.
+1683141692: New client connected from 172.18.0.1:55150 as WeatherHub (p2, c1, k15, u'WeatherStation').
+1683141748: Client WeatherHub has exceeded timeout, disconnecting.
+1683142025: New connection from 172.18.0.1:37388 on port 1883.
+1683142025: New client connected from 172.18.0.1:37388 as WeatherHub (p2, c1, k15, u'WeatherStation').
+1683142114: Client WeatherHub has exceeded timeout, disconnecting.
+1683142158: New connection from 172.18.0.1:50948 on port 1883.
+1683142158: New client connected from 172.18.0.1:50948 as WeatherHub (p2, c1, k15, u'WeatherStation').
+1683142258: Client WeatherHub has exceeded timeout, disconnecting.
+1683142355: New connection from 172.18.0.1:43296 on port 1883.
+1683142355: New client connected from 172.18.0.1:43296 as WeatherHub (p2, c1, k15, u'WeatherStation').
+1683142426: Client WeatherHub has exceeded timeout, disconnecting.
+1683143110: Client mymqtt-71823128399325 has exceeded timeout, disconnecting.
+1683150588: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1683208592: New connection from 172.18.0.1:49710 on port 1883.
+1683208592: New client connected from 172.18.0.1:49710 as WeatherHub (p2, c1, k15, u'WeatherStation').
+1683208630: New connection from 172.18.0.1:41864 on port 1883.
+1683208630: New client connected from 172.18.0.1:41864 as mymqtt-129255715694987 (p5, c0, k60).
+1683208855: Client WeatherHub has exceeded timeout, disconnecting.
+1683208892: New connection from 172.18.0.1:38102 on port 1883.
+1683208892: New client connected from 172.18.0.1:38102 as WeatherHub (p2, c1, k15, u'WeatherStation').
+1683208975: Client WeatherHub has exceeded timeout, disconnecting.
+1683208998: New connection from 172.18.0.1:58120 on port 1883.
+1683208998: New client connected from 172.18.0.1:58120 as WeatherHub (p2, c1, k15, u'WeatherStation').
+1683209059: Client WeatherHub has exceeded timeout, disconnecting.
+1683209465: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1683210283: Client mymqtt-129255715694987 has exceeded timeout, disconnecting.
+1683210730: New connection from 172.18.0.1:36432 on port 1883.
+1683210730: New client connected from 172.18.0.1:36432 as mymqtt-129255715694987 (p5, c1, k60).
+1683210732: New connection from 172.18.0.1:36440 on port 1883.
+1683210732: New client connected from 172.18.0.1:36440 as WeatherHub (p2, c1, k15, u'WeatherStation').
+1683210770: New connection from 172.18.0.1:52962 on port 1883.
+1683210770: Client WeatherHub already connected, closing old connection.
+1683210770: New client connected from 172.18.0.1:52962 as WeatherHub (p2, c1, k15, u'WeatherStation').
+1683211015: Client WeatherHub has exceeded timeout, disconnecting.
+1683211032: New connection from 172.18.0.1:53748 on port 1883.
+1683211032: New client connected from 172.18.0.1:53748 as WeatherHub (p2, c1, k15, u'WeatherStation').
+1683211099: Client WeatherHub has exceeded timeout, disconnecting.
+1683211266: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1683211555: Client mymqtt-129255715694987 disconnected.

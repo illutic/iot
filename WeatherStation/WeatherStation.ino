@@ -1,5 +1,7 @@
 #include <ESP8266WiFi.h>
 #include <PubSubClient.h>
+
+// Custom libraries
 #include "WiFiConfig.h"
 
 using namespace WiFiConfig;
@@ -24,19 +26,31 @@ void turnPumpOn() {
     digitalWrite(P_PUMP_ON, LOW);
 
     pumping = false;
+    mqttClient.publish(MQTT_SUBJ, "Pumping complete");
   }
 }
 
 void onMessageReceived(char *topic, byte *payload, unsigned int length) {
-  Serial.print("Message received [");
-  Serial.print(topic);
-  Serial.println("]");
+  const char *pump = "pump";
+  char message[length + 1];
 
-  for (int i = 0; i < length; i++) {
-    Serial.print((char)payload[i]);
+  // Copy payload into message array
+  for (int i = 0; i < length; i++)
+  {
+    message[i] = (char)payload[i];
   }
 
-  Serial.println();
+  // Null-terminate the message array
+  message[length] = '\0';
+
+  Serial.println("Received message: ");
+  Serial.println(message);
+
+  // Search for "pump" in the message
+  if (strstr(message, pump) != nullptr)
+  {
+    turnPumpOn();
+  }
 }
 
 void connectToWifi() {
@@ -54,7 +68,7 @@ void connectToWifi() {
 void connectToMQTTBroker() {
   Serial.println();
 
-  mqttClient.setServer(WiFi.gatewayIP(), MQTT_PORT);
+  mqttClient.setServer("192.168.147.86", MQTT_PORT);
   mqttClient.setCallback(onMessageReceived);
   Serial.println();
 }
@@ -88,12 +102,12 @@ void loop() {
   if (!mqttClient.connected()) {
     reconnectMqttClient();
   }
-  mqttClient.loop();
-  Serial.println(digitalRead(P_READ_MOISTURE));
 
-  if (digitalRead(P_READ_MOISTURE)) {
-    mqttClient.publish(MQTT_SUBJ, "");
+  mqttClient.loop();
+
+  if (digitalRead(P_READ_MOISTURE) == HIGH) {
+    mqttClient.publish(MQTT_SUBJ, "pump");
   }
 
-  delay(5000);
+  delay(10000);
 }

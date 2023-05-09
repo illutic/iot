@@ -1,5 +1,5 @@
 {
     "board": "esp8266:esp8266:generic",
-    "sketch": "WeatherStation\\WeatherStation.ino",
+    "sketch": "WeatherStation/WeatherStation.ino",
     "port": "COM3"
 }

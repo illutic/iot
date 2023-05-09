@@ -92,4 +92,32 @@ ExecStopPost=-/sbin/iw dev ap@%i del
 [Install]
 WantedBy=sys-subsystem-net-devices-%i.device" > /etc/systemd/system/accesspoint.service
 
-grep -qxF 'include "/lib/systemd/system/wpa_supplicant@.service"' /lib/systemd/system/wpa_supplicant@.service || echo 'include "/lib/systemd/system/wpa_supplicant@.service"' >> /lib/systemd/system/wpa_supplicant@.service
+{ grep -qxF 'include "/lib/systemd/system/wpa_supplicant@.service"' /lib/systemd/system/wpa_supplicant@.service && sed -i '/include "\/lib\/systemd\/system\/wpa_supplicant@.service"/a [Unit]\nBindsTo=accesspoint@%i.service\nAfter=accesspoint@%i.service' /lib/systemd/system/wpa_supplicant@.service; } || echo 'include "/lib/systemd/system/wpa_supplicant@.service" [Unit]\nBindsTo=accesspoint@%i.service\nAfter=accesspoint@%i.service' >> /lib/systemd/system/wpa_supplicant@.service
+
+#Step 4: setup static interfaces
+
+cat > /etc/systemd/network/08-wifi.network <<EOF
+[Match]
+Name=wl*
+[Network]
+LLMNR=no
+MulticastDNS=yes
+# If you need a static ip address, then toggle commenting next four lines (example)
+DHCP=yes
+#Address=192.168.50.60/24
+#Gateway=192.168.50.1
+#DNS=84.200.69.80 1.1.1.1
+EOF
+
+rpi ~# cat > /etc/systemd/network/12-ap.network <<EOF
+[Match]
+Name=ap@*
+[Network]
+LLMNR=no
+MulticastDNS=yes
+IPMasquerade=yes
+Address=192.168.4.1/24
+DHCPServer=yes
+[DHCPServer]
+DNS=84.200.69.80 1.1.1.1
+EOF
