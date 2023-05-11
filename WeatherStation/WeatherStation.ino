@@ -88,18 +88,9 @@ void publishSensorData()
   mqttClient.publish(MQTT_SUBJ_HUB, json.c_str());
 }
 
-void setConfiguration(JsonVariant json)
+void setConfiguration(int _lightLevel, float _temperature, float _humidity)
 {
   mqttClient.publish(MQTT_SUBJ_HUB, "Setting config...");
-
-  Serial.println("Setting config with: ");
-  String jsonStr;
-  serializeJson(json, jsonStr);
-  Serial.print(jsonStr.c_str());
-
-  int _lightLevel = json["lightLevel"].as<int>();
-  float _temperature = json["temperature"].as<float>();
-  float _humidity = json["humidity"].as<float>();
 
   if (_lightLevel != 0)
   {
@@ -189,10 +180,13 @@ void onMessageReceived(char *topic, byte *payload, unsigned int length)
   }
   else if (isJsonString(message))
   {
-    JsonObject jsonObj = convertJsonStringToObject(message);
-    if (jsonObj != NULL)
+    DynamicJsonDocument doc(1024);
+    deserializeJson(doc, message);
+    JsonObject jsonObj = doc.as<JsonObject>();
+
+    if (!jsonObj.isNull())
     {
-      setConfiguration(jsonObj);
+      setConfiguration(jsonObj["lightLevel"], jsonObj["temperature"], jsonObj["humidity"]);
     } else {
       mqttClient.publish(MQTT_SUBJ_HUB, "Failed to set config.");
     }
