@@ -1,18 +1,21 @@
 namespace WiFiConfig {
-    const char SSID[15] = "WeatherHub";
-    const char PASSWORD[9] = "password";
+    const char SSID[] = "WeatherHub";
+    const char PASSWORD[] = "password";
     
+    const char MQTT_HOST[] = "192.168.51.86";
     const int MQTT_PORT = 1883;
-    const char MQTT_USER[15] = "WeatherStation";
-    const char MQTT_PASS[9] = "password";
-    const char MQTT_SUBJ_HUB[13] = "hub";
-    const char MQTT_SUBJ_NODE[13] = "node";
+    const char MQTT_USER[] = "WeatherStation";
+    const char MQTT_PASS[] = "password";
 
-    const int P_READ_TEMP = 0;
-    const int P_READ_LIGHT = (uint8_t)17U;
-    const int P_READ_MOISTURE = 5; //This can't be the regular IO pins (0 and 2) as they are pullup input pins
-    const int P_PUMP_ON = 4; // Boot fails if pulled low!!
-    const int PUMP_TIMEOUT = 3000;
+    const char MQTT_SUBJ_HUB[] = "hub";
+    const char MQTT_SUBJ_CONFIG[] = "config";
+    const char MQTT_SUBJ_NODE[] = "node";
+
+    const int P_READ_LIGHT = (uint8_t)17U;//A0
+    const int P_READ_MOISTURE = 5; //D1
+    const int P_PUMP_ON = 4; //D2
+    const int P_READ_TEMP = 0; // D3
+    const int PUMP_TIMEOUT = 3000; // Be very careful, we can't set this too high, otherwise the Watchdog timer will reset the board!
 
     int lightLevel = 400;
     float temperature = 30;
