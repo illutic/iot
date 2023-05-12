@@ -203,5 +203,5 @@ void loop() {
   publishSensorData(currentLightLevel, currentTemperature, currentHumidity, isMoist);
 
   mqttClient.loop();
-  delay(1500);
+  delay(1000);
 }
